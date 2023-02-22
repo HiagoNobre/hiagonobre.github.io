@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1110px;
+    margin-top: 94px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    padding-top: 48px;
+}
+
+span {
+    padding: 0px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.text-icons {
+    width: 635px;
+}
+
+.text {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    color: rgba(51, 50, 61, 0.8);
+}
+
+.contact .text-icons .icons {
+    display: flex;
+    margin-top: 54px;
+    height: 28px;
+}
+
+.text-icons .icons a img {
+    width: 25px;
+    height: 24px;
+}
+
+.text-icons .icons a img:hover {
+    width: 28px;
+    height: 27px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1110px;
+    margin-top: 47px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    padding-top: 47px;
+}
+
+.form p {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 635px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    color: rgba(51, 50, 61, 0.8);
+}
+
+.email,
+.msg,
+.submit {
+    margin-top: 24px;
+}
+
+.form textarea {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    border: none;
+    background-color: rgba(51, 50, 61, 0.1);
+}
+
+.box-name-email {
+    height: 48px;
+    width: 635px;
+}
+
+.msg textarea {
+    height: 96px;
+    width: 635px;
+}
+
+.msg {
+    height: 134px;
+    width: 635px;
+}
+
+.form button {
+    cursor: pointer;
+    height: 48px;
+    width: 200px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #203A4C;
+    color: #FFFFFF;
+}
+
+.form button:hover {
+    background-color: #5FB4A2;
+}

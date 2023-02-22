@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head,
+body {
+    font-family: 'Ibarra Real Nova',
+        serif;
+    font-family: 'Public Sans',
+        sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.colorF2F2F2 {
+    color: #F2F2F2;
+}
+
+.color5FB4A2 {
+    color: #5FB4A2;
+}
+
+.hover5FB4A2:hover {
+    color: #5FB4A2;
+}
+
+.margin-top150px {
+    margin-top: 150px;
+}
+
+.margin-top109px {
+    margin-top: 109px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 1111px;
+    height: 32px;
+    margin-top: 64px;
+}
+
+nav li a {
+    color: #33323D;
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-left-nav {
+    margin-left: 43px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.question-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1111px;
+    height: 84px;
+}
+
+.question {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.button-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-contact {
+    cursor: pointer;
+    height: 48px;
+    width: 162px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #33323D;
+}
+
+.button-contact:hover {
+    background-color: #33323D;
+    color: #FAFAFA;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #33323D;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1111px;
+    height: 80px;
+}
+
+.arrows-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrows-link .arrows {
+    margin-right: 48px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icons img {
+    display: flex;
+    gap: 15px;
+    width: 24px;
+    height: 21px;
+}
+
+.icons img:hover {
+    width: 27px;
+    height: 24px;
+}

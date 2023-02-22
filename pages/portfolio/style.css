@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 14px;
+}
+
+/* codigo para manage e insure */
+
+.manage-insure-box {
+    display: flex;
+    width: 1015px;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.img-manage img {
+    width: 540px;
+    height: 500px;
+}
+
+.manage-text-button {
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.manage-text header p {
+    margin-top: 103px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.manage-text p {
+    margin-top: 28px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    color: rgba(51, 50, 61, 0.8);
+}
+
+.button-projeto {
+    display: flex;
+    margin-top: 54px;
+}
+
+.button-projeto button {
+    cursor: pointer;
+    height: 48px;
+    width: 175px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #33323D;
+}
+
+/* codigo para bookmark e fylo */
+
+.bookmark-fylo-box {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1015px;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.img-bookmark img {
+    width: 540px;
+    height: 500px;
+}
+
+.bookmark-text-button {
+    display: flex;
+    flex-direction: column;
+    margin-right: 125px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.bookmark-text header p {
+    margin-top: 103px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.bookmark-text p {
+    margin-top: 28px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    color: rgba(51, 50, 61, 0.8);
+}
+
+.button-projeto {
+    display: flex;
+    margin-top: 54px;
+}
+
+.button-projeto button {
+    cursor: pointer;
+    height: 48px;
+    width: 175px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #33323D;
+}
