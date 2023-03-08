@@ -1,7 +1,9 @@
 const linkHome = 'https://hiagonobre.github.io/';
 
-const linkToHome = document.querySelector('.link-to-home');
+const linkToHome = document.querySelectorAll('.link-to-home');
 
-linkToHome.addEventListener('click', () => {
-  window.location.href = 'https://hiagonobre.github.io/';
-});
+for (const home of linkToHome) {
+  home.addEventListener('click', () => {
+    window.location.href = 'https://hiagonobre.github.io/';
+  });
+}
