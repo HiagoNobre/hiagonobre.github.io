@@ -7,7 +7,7 @@
 
 .img-hero-background {
     display: flex;
-    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-image: url(./assets/home/image-homepage-hero.jpg);
     background-size: cover;
     width: 1110px;
     height: 600px;
